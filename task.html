@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasky</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .button{
+            color: white;
+            background-color: crimson;
+            padding: 10px;
+            border: 1px;
+            font-size: larger;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 12px;
+            
+        }
+        a{
+            text-decoration: none;
+            
+        }
+        .container{
+            width: 100%;
+            height: 80vh;
+            background-color: white;
+            text-align: center;
+        }
+        .redfooter{
+            background-color: crimson;
+            width: 100%;
+            height: 20vh;
+        }
+        .logo{
+            padding-top: 80px;
+            padding-bottom: 30px;
+        }
+        #number{
+            padding: 10px;
+            padding-right: 70px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 3px solid crimson;
+            padding-top: 15px;
+            
+        }
+       
+        input.ch1{
+            width: 20px;
+            height: 20px;
+            
+        }
+        input.ch2{
+            width: 20px;
+            height: 20px;
+            
+        }
+        input.ch3{
+            width: 20px;
+            height: 20px;
+        }
+        .task{
+            font-size: 20px;
+            font-weight: 500;
+            padding-top: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" class="logo">
+        
+            <div>
+                <div class="gogo">
+                    <form class="agba">
+                        <input type="number" placeholder="New task..." id="number"><a href="#" class="button">ADD</a>
+                        
+                    </form>
+                    <br>
+
+                    <form  class="task">
+                        <span>
+                            <input type="checkbox" class="ch1"> Example task #1
+                        </span>
+                        <br>
+                        
+                        <span>
+                            <input type="checkbox" class="ch2"> Example task #2
+                        </span>
+                        <br>
+                        <span>
+                            <input type="checkbox" class="ch3"> Example task #3
+                        </span>
+                
+                    </form>
+                        
+                    
+                </div>
+                
+            </div>
+            
+            
+        </div>
+
+
+
+    </div>
+    <div class="redfooter"></div>
+    
+</body>
+</html>
